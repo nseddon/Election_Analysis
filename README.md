@@ -78,12 +78,8 @@ The additional anaylsis of the election show that:
         - Inclusion of all ballots issued, even if not cast, in the csv would be required.
         - Code manipulation would require modifciation of how total votes are calculated.
         - Code manipulation would require an additional tracker to count the number of ballots issued.
-
-[Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-1.PNG) - Original Code for total votes counted.
-![Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-1.PNG)
-
-[Modification 1-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-2.PNG) - Modified Code for total votes counted and ballots issued.
-![Modification 1-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-2.PNG)
+        - [Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-1.PNG) - Original Code for total votes counted.![Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-1.PNG)
+        - [Modification 1-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-2.PNG) - Modified Code for total votes counted and ballots issued.![Modification 1-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-2.PNG)
     
 2. County Based Metrics
     - Percentage of county population that voted in the election.
