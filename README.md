@@ -58,7 +58,7 @@ The additional anaylsis of the election show that:
 3. [PyPoll_Challenge.py](https://github.com/nseddon/Election_Analysis/blob/main/PyPoll_Challenge.py) - Source code for the analysis
 
 ## Election Audit Summary
-The code currently provides a summary for state based elections with the ability to present:
+### The code currently provides a summary for state based elections with the ability to present:
 1. Statewide Metrics
     - Total votes received during the election.
     - Declaration of winning Candidate, including vote count and percentage of the total vote.
@@ -72,7 +72,7 @@ The code currently provides a summary for state based elections with the ability
     - Total votes received by each candidate.
     - Percentage of the Statewide Total Vote received by each candidate.
 
-Additional results from analysis may be obtained through code and data modification:
+### Additional results from analysis may be obtained through code and data modification:
 1. Statewide Metrics
     - Percentage of population that voted in the election.
         - Inclusion of all ballots issued, even if not cast, in the csv would be required.
@@ -86,7 +86,7 @@ Additional results from analysis may be obtained through code and data modificat
 ![Modification 1-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-2.PNG)
     
 2. County Based Metrics
-    - Percentage of population that voted in the election.
+    - Percentage of county population that voted in the election.
         - No further csv adjustments necessary if the statewide adjustment has been made.
         - Code manipulation would require modification of how total votes are calculated in the county.
         - Code manipulation would require an additional tracker to count the number of ballots issued within the county.
@@ -96,4 +96,21 @@ Additional results from analysis may be obtained through code and data modificat
 
 [Modification 2-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-2.PNG) - Modified Code for total votes counted and ballots issued.
 ![Modification 2-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-2.PNG) 
+
+3. Candidate Based Metrics
+    - True Percentage of population that voted for each candidate.
+        - No further csv adjustments necessary if the statewide adjustment has been made.
+        - Code addition would allow for percentage of vote received from total ballots in addition to ballots cast.
+
+4. Further demographic information could be analyzed.
+    - Inclusion in .csv file of age, education, party affiliation, lists of issues candidate intends to address, etc. would allow for additional studies to be concluded.
+  
+### Future Use Summary
+With some or all of the modifications to the .csv data file suggested above, future analysis could provided data to assist with the following:
+
+1. How to increase overall voter turnout
+2. How to increase demographic based voter registration and turnout.
+3. Redrawing of voter district lines to further improve fairness in the election systems based on population changes.
+4. Analysis of voter concerns that dictated their vote.
+         
     
