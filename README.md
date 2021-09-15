@@ -73,7 +73,10 @@ The additional anaylsis of the election show that:
     - Percentage of the Statewide Total Vote received by each candidate.
 
 ### Additional results from analysis may be obtained through code and data modification:
-1. Statewide Metrics
+1. Country Based Metrics
+    - Additional sections of code could be inserted to track overall state data to allow for the program to be used in national elections.
+
+2. State Based Metrics
     - Percentage of population that voted in the election.
         - Inclusion of all ballots issued, even if not cast, in the csv would be required.
         - Code manipulation would require modifciation of how total votes are calculated.
@@ -81,7 +84,7 @@ The additional anaylsis of the election show that:
         - [Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-1.PNG) - Original Code for total votes counted.![Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-1.PNG)
         - [Modification 1-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-2.PNG) - Modified Code for total votes counted and ballots issued.![Modification 1-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-2.PNG)
     
-2. County Based Metrics
+3. County Based Metrics
     - Percentage of county population that voted in the election.
         - No further csv adjustments necessary if the statewide adjustment has been made.
         - Code manipulation would require modification of how total votes are calculated in the county.
@@ -89,13 +92,20 @@ The additional anaylsis of the election show that:
         - [Modification 2-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-1.PNG) - Original Code for total votes counted.![Modification 2-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-1.PNG)
         - [Modification 2-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-2.PNG) - Modified Code for total votes counted and ballots issued.![Modification 2-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-2.PNG) 
 
-3. Candidate Based Metrics
+4. Candidate Based Metrics
     - True Percentage of population that voted for each candidate.
         - No further csv adjustments necessary if the statewide adjustment has been made.
         - Code addition would allow for percentage of vote received from total ballots in addition to ballots cast.
 
-4. Further demographic information could be analyzed.
+5. Further demographic information could be analyzed.
     - Inclusion in .csv file of age, education, party affiliation, lists of issues candidate intends to address, etc. would allow for additional studies to be concluded.
+
+6. Use of existing code with terminology modification for other analyses
+    - Modification of the variable names would allow existing code to track other election results.  For example, rather than a county and candidate name, an individual county could adjust this code to count up votes for a specific measure, such as budgetary increases for the school system.  
+        - Adjust the county name for the bill/amendment name to track votes for each measure.
+        - Adjust the candidate name to track if the vote cast was for or against the measure.
+        - .csv data would include the ballot number, name of the measure, and vote cast as the three lines of data.
+        - Additional adjustment would be required in the printing sections of code to ensure proper presentation of the voting analysis on the bills.
   
 ### Future Use Summary
 With some or all of the modifications to the .csv data file suggested above, future analysis could provided data to assist with the following:
@@ -104,5 +114,6 @@ With some or all of the modifications to the .csv data file suggested above, fut
 2. How to increase demographic based voter registration and turnout.
 3. Redrawing of voter district lines to further improve fairness in the election systems based on population changes.
 4. Analysis of voter concerns that dictated their vote.
+5. Measure/Issue specific voting counts for additional presentation.
          
     
