@@ -41,9 +41,9 @@ Upon review of the Election Analysis, the Election Commission has requested addi
 ## Challenge Summary
 The additional anaylsis of the election show that:
 - The election consisted of votes for the following counties:
-                -   Jefferson County
-                -   Denver County
-                -   Arapahoe County
+                - Jefferson County
+                - Denver County
+                - Arapahoe County
 - The voter turnout for each county were:
                 -   Jefferson County produced 10.5% of the vote with 38,855 votes.
                 -   Denver County produced 82.8% of the vote with 306,055 votes. 
