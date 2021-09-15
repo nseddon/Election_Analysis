@@ -78,7 +78,7 @@ Additional results from analysis may be obtained through code and data modificat
           - Inclusion of all ballots issued, even if not cast, in the csv would be required.
           - Code manipulation would require how total votes are calculated to be modified
           - Code manipulation would require an additional tracker to count the number of ballots issued.
-          - [Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Deliverable%201.PNG) - Screencapture of results printed to terminal.
-![Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Deliverable%201.PNG)
+          - [Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-1.PNG)
+![Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-1.PNG)
     
 
