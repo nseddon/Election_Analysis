@@ -86,12 +86,8 @@ The additional anaylsis of the election show that:
         - No further csv adjustments necessary if the statewide adjustment has been made.
         - Code manipulation would require modification of how total votes are calculated in the county.
         - Code manipulation would require an additional tracker to count the number of ballots issued within the county.
-
-[Modification 2-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-1.PNG) - Original Code for total votes counted.
-![Modification 2-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-1.PNG)
-
-[Modification 2-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-2.PNG) - Modified Code for total votes counted and ballots issued.
-![Modification 2-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-2.PNG) 
+        - [Modification 2-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-1.PNG) - Original Code for total votes counted.![Modification 2-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-1.PNG)
+        - [Modification 2-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-2.PNG) - Modified Code for total votes counted and ballots issued.![Modification 2-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-2.PNG) 
 
 3. Candidate Based Metrics
     - True Percentage of population that voted for each candidate.
