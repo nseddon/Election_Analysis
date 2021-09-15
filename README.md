@@ -58,12 +58,27 @@ The additional anaylsis of the election show that:
 3. [PyPoll_Challenge.py](https://github.com/nseddon/Election_Analysis/blob/main/PyPoll_Challenge.py) - Source code for the analysis
 
 ## Election Audit Summary
-This audit may be used in future elections with modifications.  The code currently provides a summary for state based elections with the ability to present:
+The code currently provides a summary for state based elections with the ability to present:
 1. Statewide Metrics
-- Total votes received during the election.
+    - Total votes received during the election.
+    - Declaration of winning Candidate, including vote count and percentage of the total vote.
 2. County Based Metrics
-- Names of counties where at least one vote was cast.
-- Total votes received within each county
-- Percentage of the Statewide Total Vote received within each County
+    - Names of counties where at least one vote was cast.
+    - Total votes received within each county
+    - Percentage of the Statewide Total Vote received within each County
+    - Name of County with the highest voter turnout.
+3. Candidate Based Metrics
+    - Names of candidates that received at least one vote.
+    - Total votes received by each candidate.
+    - Percentage of the Statewide Total Vote received by each candidate.
+
+Additional results from analysis may be obtained through code and data modification:
+1. Statewide Metrics
+    - Percentage of population that voted in the election
+          - Inclusion of all ballots issued, even if not cast, in the csv would be required.
+          - Code manipulation would require how total votes are calculated to be modified
+          - Code manipulation would require an additional tracker to count the number of ballots issued.
+          - [Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Deliverable%201.PNG) - Screencapture of results printed to terminal.
+![Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Deliverable%201.PNG)
     
 
