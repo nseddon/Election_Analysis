@@ -96,16 +96,16 @@ print(winning_candidate_summary)
 #print(total_votes)
 
 # Using the with statement open the file as a text file.
-with open(file_to_save, "w") as txt_file:
+#with open(file_to_save, "w") as txt_file:
 
 	# Add a header to the write file.
-	txt_file.write("Counties in the Election\n_________________________\n")
+	#txt_file.write("Counties in the Election\n_________________________\n")
 	
 	# Write three counties to the file.
-	txt_file.write("Arapahoe\nDenver\nJefferson")
+	#txt_file.write("Arapahoe\nDenver\nJefferson")
 
 #Close the file
-election_data.close()
+#election_data.close()
 
 
 
