@@ -76,7 +76,7 @@ Additional results from analysis may be obtained through code and data modificat
 1. Statewide Metrics
     - Percentage of population that voted in the election.
         - Inclusion of all ballots issued, even if not cast, in the csv would be required.
-        - Code manipulation would require how total votes are calculated to be modified
+        - Code manipulation would require modifciation of how total votes are calculated.
         - Code manipulation would require an additional tracker to count the number of ballots issued.
 
 [Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-1.PNG) - Original Code for total votes counted.
@@ -85,4 +85,15 @@ Additional results from analysis may be obtained through code and data modificat
 [Modification 1-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-2.PNG) - Modified Code for total votes counted and ballots issued.
 ![Modification 1-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-2.PNG)
     
+2. County Based Metrics
+    - Percentage of population that voted in the election.
+        - No further csv adjustments necessary if the statewide adjustment has been made.
+        - Code manipulation would require modification of how total votes are calculated in the county.
+        - Code manipulation would require an additional tracker to count the number of ballots issued within the county.
 
+[Modification 2-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-1.PNG) - Original Code for total votes counted.
+![Modification 2-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-1.PNG)
+
+[Modification 2-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-2.PNG) - Modified Code for total votes counted and ballots issued.
+![Modification 2-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%202-2.PNG)
+    
