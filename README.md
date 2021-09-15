@@ -52,7 +52,7 @@ The additional anaylsis of the election show that:
         - Denver County which produced 82.8% of the vote with 306,055 votes.
 
 ## Attachments
-1. Deliverable 1 - Screencapture of results printed to terminal.
+1. [Deliverable 1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Deliverable%201.PNG) - Screencapture of results printed to terminal.
 ![Deliverable 1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Deliverable%201.PNG)
 2. [Election_Analysis.txt](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/election_analysis.txt) - Election results written to a text file for delivery to the Election Commission.
 3. [PyPoll_Challenge.py](https://github.com/nseddon/Election_Analysis/blob/main/PyPoll_Challenge.py) - Source code for the analysis
