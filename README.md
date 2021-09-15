@@ -74,7 +74,7 @@ The code currently provides a summary for state based elections with the ability
 
 Additional results from analysis may be obtained through code and data modification:
 1. Statewide Metrics
-    - Percentage of population that voted in the election
+    - Percentage of population that voted in the election.
           - Inclusion of all ballots issued, even if not cast, in the csv would be required.
           - Code manipulation would require how total votes are calculated to be modified
           - Code manipulation would require an additional tracker to count the number of ballots issued.
