@@ -57,4 +57,13 @@ The additional anaylsis of the election show that:
 2. [Election_Analysis.txt](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/election_analysis.txt) - Election results written to a text file for delivery to the Election Commission.
 3. [PyPoll_Challenge.py](https://github.com/nseddon/Election_Analysis/blob/main/PyPoll_Challenge.py) - Source code for the analysis
 
+## Election Audit Summary
+This audit may be used in future elections with modifications.  The code currently provides a summary for state based elections with the ability to present:
+1. Statewide Metrics
+    1a. Total votes received during the election.
+2. County Based Metrics
+    2a. Names of counties where at least one vote was cast.
+    2b. Total votes received within each county
+    2c. Percentage of the Statewide Total Vote received within each County
+    
 
