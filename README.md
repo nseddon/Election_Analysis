@@ -28,5 +28,5 @@ The analysis of the election show that:
     - Diana DeGette who received 73.8% of the vote and 272,892 number of votes.
 
 ## Challenge Overview
-
+ 
 ## Challenge Summary
