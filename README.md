@@ -81,5 +81,7 @@ Additional results from analysis may be obtained through code and data modificat
 
 [Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-1.PNG) - Original Code for total votes counted.
 ![Modification 1-1.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-1.PNG)
+[Modification 1-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-2.PNG) - Modified Code for total votes counted and ballots issued.
+![Modification 1-2.png](https://github.com/nseddon/Election_Analysis/blob/main/Analysis/Modification%201-2.PNG)
     
 
